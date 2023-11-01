@@ -10,7 +10,7 @@ public class GetRequestUsingID {
         Response response = given()
                 .contentType(ContentType.JSON)
                 .when()
-                .get("http://localhost:3000/Employee/02");
+                .get("http://localhost:3000/Employee/04");
 
         System.out.println(response.statusCode());
         System.out.println(response.asPrettyString());

@@ -5,7 +5,7 @@ import org.json.JSONObject;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-public class PostRequestUsingOrgJson {
+public class PostRequestOrgJsonSimpleJson {
     public static void main(String[] args) {
 
         JSONObject requestBodyData = new JSONObject();
@@ -29,4 +29,5 @@ public class PostRequestUsingOrgJson {
         System.out.println(response.asPrettyString());
 
     }
+
 }

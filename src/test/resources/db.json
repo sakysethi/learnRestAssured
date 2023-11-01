@@ -1,5 +1,5 @@
 {
-  "Employee": [
+  "SimpleJson": [
     {
       "FirstName": "Deepika",
       "LastName": "Padukon",
@@ -43,7 +43,7 @@
       "id": "202"
     }
   ],
-  "Actress": [
+  "ComplexJson": [
     {
       "Name" : {
       "FirstName": "Deepika",
@@ -73,4 +73,19 @@
     }
   ]
 
+  ,
+  "ArrayJson": [
+    [
+        {
+            "FirstName": "Deepika",
+            "LastName": "Padukon",
+            "id": "01"
+        },
+        {
+            "FirstName": "Priyanka",
+            "LastName": "Chopra",
+            "id": "03"
+        }
+    ]
+]
 }

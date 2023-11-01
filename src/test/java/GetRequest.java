@@ -10,7 +10,7 @@ public class GetRequest {
         Response response = given()
                 .contentType(ContentType.JSON)
                 .when()
-                .get("http://localhost:3000/Employee");
+                .get("http://localhost:3000/SimpleJson");
 
         System.out.println(response.statusCode());
         System.out.println(response.asPrettyString());
