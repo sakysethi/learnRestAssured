@@ -1,0 +1,91 @@
+{
+  "SimpleJsonCountries": [
+    {
+      "id": "01",
+      "country": "Poland",
+      "capital": "Warsaw"
+    },
+    {
+      "id": "02",
+      "country": "Greece",
+      "capital": "Athens"
+    },
+    {
+      "Country": "Italy",
+      "id": "07",
+      "Capital": "Rome"
+    },
+    {
+      "Country": "Netherlands",
+      "id": "70",
+      "Capital": "Amsterdam"
+    },
+    {
+      "id": "90",
+      "country": "Spain",
+      "capital": "Madrid"
+    }
+  ],
+  "ComplexJsonContinents": [
+    {
+      "id": "Asia",
+      "Countries": {
+        "Country1": "China",
+        "Country2": "Sri Lanka",
+        "Country3": "India"
+      }
+    },
+    {
+      "id": "Australia",
+      "Countries": {
+        "Country1": "Australia"
+      }
+    },
+    {
+      "id": "Australia",
+      "Countries": {
+        "Country1": "Australia"
+      }
+    },
+    {
+      "Countries": {
+        "Country3": "Ghana",
+        "Country2": "South Africa",
+        "Country1": "Brazil"
+      },
+      "id": "Africa"
+    },
+    {
+      "id": "Eurpoe",
+      "countries": {
+        "country1": "Spain",
+        "country2": "UK",
+        "country3": "Germany"
+      }
+    }
+  ],
+  "ArrayJsonEmployee": [
+    {
+      "id": "800",
+      "Office": [
+        "Bangalore",
+        "Hydrabad"
+      ]
+    },
+    {
+      "id": "801",
+      "Office": [
+        "Gurugram",
+        "Kolkata"
+      ]
+    },
+    {
+      "Office": [
+        "Delhi",
+        "Bangalore",
+        "Chnnai"
+      ],
+      "id": "802"
+    }
+  ]
+}

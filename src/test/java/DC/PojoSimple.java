@@ -1,3 +1,5 @@
+package DC;
+
 public class PojoSimple {
 
     private String fName;

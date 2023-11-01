@@ -1,3 +1,5 @@
+package DC;
+
 import static io.restassured.RestAssured.given;
 
 import io.restassured.http.ContentType;

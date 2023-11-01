@@ -1,18 +1,20 @@
+package DC;
+
 import static io.restassured.RestAssured.*;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-public class DeleteRequest {
+public class GetRequestUsingID {
 
     public static void main(String[] args) {
 
         Response response = given()
                 .contentType(ContentType.JSON)
                 .when()
-                .delete("http://localhost:3000/Employee/02");
+                .get("http://localhost:3000/SimpleJson/05");
 
-        System.out.println(response.statusCode()); // 200
-        System.out.println(response.asPrettyString()); // No data
+        System.out.println(response.statusCode());
+        System.out.println(response.asPrettyString());
     }
 }
