@@ -19,9 +19,7 @@ public class PostJsonFileSimple {
         File file = new File(
                 "C:\\Users\\sakshsethi\\Documents\\RestAssuredDemo\\src\\test\\resources\\InputPayloadSimple.json");
         FileInputStream inputStream = new FileInputStream(file);
-
         JSONTokener jsonTokner = new JSONTokener(inputStream);
-
         JSONObject jsonObject = new JSONObject(jsonTokner);
 
         // System.out.println(jsonObject.toString());

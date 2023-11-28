@@ -1,7 +1,6 @@
-package Practice;
+package PracticeAgain;
 
 import static io.restassured.RestAssured.*;
-
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
@@ -12,10 +11,10 @@ public class GetRequest {
         Response response = given()
                 .contentType(ContentType.JSON)
                 .when()
-                .get("http://localhost:3000/SimpleJsonCountries");
+                .get("http://localhost:3000/Users");
 
-        System.out.println("Status code is ... " + response.statusCode());
-        System.out.println("Response Body is ... ");
+        System.out.println(response.statusCode());
         System.out.println(response.asPrettyString());
+
     }
 }

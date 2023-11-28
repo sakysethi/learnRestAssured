@@ -1,0 +1,24 @@
+{
+    "SimpleJson": [
+      {
+        "Name": "Deepika",
+        "id": "01"
+      },
+      {
+        "Name": "Priyanka",
+        "id": "03"
+      },
+      {
+        "Name": "Anushka",
+        "id": "04"
+      },
+      {
+        "Name": "Sonam",
+        "id": "05"
+      },
+      {
+        "Name": "Kiara",
+        "id": "06"
+      }
+    ]
+  }
