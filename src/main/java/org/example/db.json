@@ -1,0 +1,12 @@
+{
+    "SimpleJson" :[
+    {
+      "Name": "Deepika",
+      "id": "01"
+    },
+    {
+        "Name": "Ranveer",
+        "id": "02"
+      }
+]
+}
