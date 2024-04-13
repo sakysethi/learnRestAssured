@@ -1,0 +1,25 @@
+{
+  "SimpleJsonCountries": [
+    {
+      "id": "01",
+      "Country": "Poland",
+      "Capital": "Warsaw"
+    },
+    {
+      "id": "02",
+      "Country": "Greece",
+      "Capital": "Athens"
+    },
+    {
+      "Country": "Italy",
+      "id": "07",
+      "Capital": "Rome"
+    },
+    {
+      "Country": "Netherlands",
+      "id": "70",
+      "Capital": "Amsterdam"
+    }
+  ]
+
+}
