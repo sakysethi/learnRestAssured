@@ -1,0 +1,69 @@
+{
+  "SimpleJson": [
+    {
+      "Name": "Deepika",
+      "id": "01"
+    },
+    {
+      "Name": "Priyanka",
+      "id": "03"
+    },
+    {
+      "Name": "Anushka",
+      "id": "04"
+    },
+    {
+      "Name": "Sonam",
+      "id": "05"
+    },
+    {
+      "Name": "Kiara",
+      "id": "06"
+    }
+  ],
+  "ComplexJson": [
+    {
+      "Name" : {
+        "FirstName": "Deepika",
+        "LastName": "Padukon"
+      },
+      "id": "01"
+    },
+    {
+      "FirstName": "Priyanka",
+      "LastName": "Chopra",
+      "id": "03"
+    },
+    {
+      "FirstName": "Anushka",
+      "LastName": "Sharma",
+      "id": "04"
+    },
+    {
+      "FirstName": "Sonam",
+      "LastName": "Kapoor",
+      "id": "05"
+    },
+    {
+      "FirstName": "Kiara",
+      "LastName": "Advani",
+      "id": "06"
+    }
+  ]
+
+,
+  "ArrayJson": [
+    [
+      {
+        "FirstName": "Deepika",
+        "LastName": "Padukon",
+        "id": "01"
+      },
+      {
+        "FirstName": "Priyanka",
+        "LastName": "Chopra",
+        "id": "03"
+      }
+    ]
+  ]
+}

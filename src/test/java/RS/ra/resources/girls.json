@@ -1,0 +1,24 @@
+{
+  "Girls": [
+    {
+      "Name": "Deepika",
+      "id": "01"
+    },
+    {
+      "Name": "Priyanka",
+      "id": "02"
+    },
+    {
+      "id": "03",
+      "Name": "Kiara"
+    },
+    {
+      "Countries": {
+        "Country3": "Mexico",
+        "Country2": "Canada",
+        "Country1": "USA"
+      },
+      "id": "North America"
+    }
+  ]
+}

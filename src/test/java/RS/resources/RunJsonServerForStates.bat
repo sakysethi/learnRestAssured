@@ -1,0 +1,1 @@
+json-server --watch C:\Users\sakshsethi\IdeaProjects\RESTCodeStudio\src\test\java\resources\states.json
