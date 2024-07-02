@@ -1,0 +1,54 @@
+{
+  "Employee": [
+    {
+      "FirstName": "Sonam",
+      "LastName": "Kapoor",
+      "id": "05"
+    },
+    {
+      "FirstName": "Kiara",
+      "LastName": "Advani",
+      "id": "06"
+    },
+    {
+      "movies": [
+        "Ki & Ka",
+        "Jab We Met",
+        "Heroine"
+      ],
+      "FirstName": "Kareena",
+      "LastName": "Kapoor",
+      "id": "BkAcZXV"
+    },
+    {
+      "movies": [
+        "Bareilly ki Barfi",
+        "Heropanti",
+        "Mimi"
+      ],
+      "FirstName": "Kriti",
+      "LastName": "Sanon",
+      "id": "09"
+    },
+    {
+      "id": "12",
+      "movies": [
+        "Raazi",
+        "Darlings",
+        "Udta Punjab"
+      ],
+      "firstName": "Alia",
+      "lastName": "Bhatt"
+    },
+    {
+      "movies": [
+        "Sultan",
+        "Zero",
+        "PK"
+      ],
+      "FirstName": "Anuskha",
+      "LastName": "Sharma",
+      "id": "02"
+    }
+  ]
+}
